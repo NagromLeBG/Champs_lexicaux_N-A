@@ -10,6 +10,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache/
+PyMotifs
 
 ### --- SYSTÈME (Spécifique Mac) ---
 # Fichiers invisibles créés par macOS dans chaque dossier
