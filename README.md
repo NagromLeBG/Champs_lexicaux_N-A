@@ -1,4 +1,4 @@
-# 📚 Analyse des Champs Lexicaux & NLP
+# Analyse des Champs Lexicaux & NLP
 
 Ce projet est une plateforme de traitement du langage naturel (NLP) conçue pour l'analyse de corpus textuels, l'extraction de motifs syntaxiques et la visualisation de données.
 
@@ -17,7 +17,7 @@ python -m spacy download fr_core_news_sm && \
 cd PyMotifs && pip install . && cd ..
 ```
 
-Organisation du Repository
+## Organisation du Repository
 Test_naturaliste.ipynb : Notebook principal contenant le code d'analyse et les graphiques.
 
 Corpus_textes/ : Dossier de stockage des fichiers textes à analyser.
@@ -27,8 +27,8 @@ PyMotifs/ : Module local pour l'extraction de motifs (installé en mode éditabl
 .gitignore : Fichier de configuration pour exclure .venv/, __pycache__ et les fichiers système Mac du suivi Git.
 
 
-Stack Technique
-Langage : Python 3.12
+## Stack Technique
+Langage : Python 3.12 (pour la stabilité et les performances)
 
 NLP : spaCy (Tokenisation & Parsing), Gensim (Topic Modeling), PyMotifs (Extraction de motifs syntaxiques)
 
