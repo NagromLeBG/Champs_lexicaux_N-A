@@ -66,7 +66,7 @@ Depuis la racine du projet :
 python3.12 -m venv .venv
 source .venv/bin/activate
 pip install pandas spacy gensim matplotlib scikit-learn ipykernel
-python -m spacy download fr_core_news_sm
+python -m spacy download fr_core_news_lg
 ```
 
 # Lancer le projet
